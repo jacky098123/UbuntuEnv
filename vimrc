@@ -1,5 +1,7 @@
 :set fileencodings=utf8,cp936
 ":set fileencodings=utf8
+:set termencoding=utf-8
+:set encoding=utf-8
 :syn on
 :set hlsearch
 :set incsearch

@@ -8,8 +8,8 @@
 
 ## 安装 openssl-server 包
 * apt-get install -y openssl-server
-* sudo systemctl -y restart ssh
-* sudo systemctl -y enable ssh
+* sudo systemctl restart ssh
+* sudo systemctl enable ssh
 
 ## Wifi
 通过UI，设置WiFi的IP地址，使用 menual 指定 固定IP 的方式
@@ -22,5 +22,9 @@ psk-flags=0
 ## 防止休眠
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
+
+
+## 安装远程桌面
+sudo apt-get install x11vnc
 
 
