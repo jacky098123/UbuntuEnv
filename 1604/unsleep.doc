@@ -1,0 +1,4 @@
+Created symlink from /etc/systemd/system/sleep.target to /dev/null.
+Created symlink from /etc/systemd/system/suspend.target to /dev/null.
+Created symlink from /etc/systemd/system/hibernate.target to /dev/null.
+Created symlink from /etc/systemd/system/hybrid-sleep.target to /dev/null.
